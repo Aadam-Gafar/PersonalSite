@@ -8,15 +8,17 @@ body {
     ),
     url("assets/background.jpg");
     background-size: contain;
+    color: rgb(240, 241, 249);
 }
 
 b {
     font-weight: 600;
+    color: rgb(63, 178, 63);
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
 }
 
 h1 {
@@ -38,8 +40,6 @@ h2 {
     font-size: 125px;
 }
 
-
-
 img {
     border-radius: 15px;
 }
@@ -49,19 +49,15 @@ img {
     top: 0;
     left: 0;
     right: 0;
-    color: white;
-    background-color: grey;
+    background-color: rgb(18, 18, 32);
     display: flex;
     align-items: center;
     z-index: 99;
 }
 
-#personalLogo {
-    margin: 5px;
-}
-
 #menuGrid {
     width: 100%;
+    margin: 15px;
 }
 
 #menuItems {
@@ -77,16 +73,16 @@ a {
 
 a:hover {
     opacity: 1;
+    color: rgb(64, 256, 64);
 }
 
 #introduction {
     margin-top: 100px;
     text-align: center;
-    color: white;
 }
 
 #informationBox {
-    background-color: gray;
+    background-color: rgba(34, 34, 61, 0.75);
     border-radius: 15px;
     display: flex;
     height: 500px;
@@ -140,7 +136,7 @@ a:hover {
     margin-right: 15%;
     margin-top: 5%;
     border-radius: 15px;
-    background-color: gray;
+    background-color: rgba(34, 34, 61, 0.75);
     padding: 25px;
 }
 
@@ -167,7 +163,7 @@ a:hover {
     margin-right: 15%;
     margin-top: 5%;
     border-radius: 15px;
-    background-color: gray;
+    background-color: rgba(34, 34, 61, 0.75);
     padding: 25px;
 }
 
@@ -201,7 +197,7 @@ a:hover {
 
 #footer {
     margin-top: 5%;
-    background-color: gray;
+    background-color: rgba(34, 34, 61, 0.75);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,14 +208,6 @@ a:hover {
 @media only screen and (min-width: 0px) and (max-width: 1000px) {
     #navigationBar {
         padding: 5px;
-    }
-    
-    #personalLogo {
-        height: 30px;
-    }
-    
-    #menuGrid a {
-        font-size: 20px;
     }
 
     #introduction {
@@ -262,12 +250,11 @@ a:hover {
     #portfolioGrid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        gap: 10px;
     }
     
     #footer {
         margin-top: 5%;
-        background-color: gray;
+        background-color: rgba(34, 34, 61, 0.75);
         display: flex;
         justify-content: center;
         align-items: center;
