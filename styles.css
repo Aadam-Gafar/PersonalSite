@@ -99,7 +99,7 @@ a:hover {
     align-items: center;
     background-image: url("assets/comingSoon.jpg");
     background-size: cover;
-    background-position: top;
+    background-position: center;
     border-radius: 15px;
 }
 
