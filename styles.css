@@ -102,6 +102,34 @@ img {
     height: 0;
 }
 
+#technologyBox {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    border-radius: 15px;
+    background-color: gray;
+    padding: 50px;
+}
+
+#technologyIcons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#technologyIcons img {
+    height: 50px;
+}
+
+#technologyIcons a {
+    opacity: 50%;
+    transition: .3s;
+    cursor: pointer;
+}
+
+#technologyIcons a:hover {
+    opacity: 1;
+}
+
 #portfolioBox {
     margin-left: 15%;
     margin-right: 15%;
@@ -181,6 +209,12 @@ img {
 
     #textColumn p {
         max-height: 250px;
+    }
+
+    #technologyBox {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 25px;
     }
 
     #portfolioBox {
